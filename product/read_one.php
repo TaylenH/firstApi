@@ -19,7 +19,7 @@
 	//set ID property of product to be edited
 	$product->id = isset($_GET['id']) ? $_GET['id'] : die();
 	
-	//read teh details of product to be edited
+	//read the details of product to be edited
 	$product->readOne();
 	
 	//create array
